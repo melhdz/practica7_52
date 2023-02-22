@@ -1,0 +1,66 @@
+/* Selector por clase */
+/* 
+.titulo *{
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px gold;
+} */
+
+
+/* Selector por atributo. Que tenga un atributo sin importar el valor. */
+/* 
+p[lang="en"] {
+    background-color: blue;
+} */
+
+
+/* "$" significa que termina con lo especificado */
+
+/* a[ href$="org"] {
+    background-color: aqua;
+} */
+
+/* "^" inicio */
+/* a[href^="#"] {
+    background-color: greenyellow;
+} */
+
+
+/* "*" donde encuentre el valor no importa donde */
+/* a[href*="empresa"] {
+    font-size: 85px;
+} */
+
+
+/* "~" busca el elemento que tenga href y busque la palabra */
+/* a[href~="empresa"] {
+    font-size: 85px;
+} */
+
+
+/* Selector de descendientes */
+/* main p {
+    border-bottom: 1px dashed black;
+} */
+
+
+/* Selector de descendientes hijos directos */
+
+/* main > p {
+    border-bottom: 1px dashed black;
+}
+ */
+
+
+/* Selector hermano adyacente */
+
+/* h3 + p {
+    border-top: 1px solid red;
+    border-radius: 200px;
+} */
+
+/* Selector hermano general */
+
+/* h3 ~ p {
+    border-top: 1px solid red;
+    border-radius: 200px;
+} */
